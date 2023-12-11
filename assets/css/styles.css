@@ -1,0 +1,46 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* Using Arial as a commonly available sans-serif font */
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    height: 100vh;
+}
+
+/* Header Styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Main Content Styling */
+main {
+    max-width: 1200px;
+    /* Sensible max-width for large monitors */
+    margin: 0 auto;
+    height: 100%;
+    padding: 20px;
+    background: #fff;
+}
+
+/* Ensuring the content is not too wide for easy reading */
+main p,
+main article {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+/* Responsive Design for smaller screens */
+@media screen and (max-width: 768px) {
+    main {}
+}
