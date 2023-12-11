@@ -1,6 +1,6 @@
 module.exports = function (eleventyConfig) {
     // Copy `assets/css` directory to `_site/assets/css`
-    eleventyConfig.addPassthroughCopy("assets/css");
+    eleventyConfig.addPassthroughCopy("assets");
 
     return {
         dir: {
